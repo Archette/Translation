@@ -1,0 +1,27 @@
+{
+    "name": "archette/translation",
+    "description": "Doctrine entity translations (rixafy/translation) ported to Nette Framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rixafy",
+            "email": "rixafy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "archette/language": "dev-master",
+        "rixafy/translation": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Archette\\Translation\\": "src"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.3"
+        }
+    }
+}
